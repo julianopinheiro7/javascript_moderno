@@ -1,0 +1,46 @@
+<!DOCTYPE html>
+<html>
+<head>
+    <meta charset="utf-8" />
+    <meta http-equiv="X-UA-Compatible" content="IE=edge">
+    <title>Page Title</title>
+    <meta name="viewport" content="width=device-width, initial-scale=1">
+    <style>
+        .default-theme #edit-bg, #edit-bg.custom-links-enabled {
+            border-radius: 8px;
+            bottom: 16px;
+            display: block;
+            height: 28px;
+            position: fixed;
+            right: 16px;
+            width: 28px;
+            z-index: 100;
+        }
+
+            .default-theme #edit-bg:hover, #edit-bg.custom-links-enabled:hover {
+                background-color: rgb(241,243,244);
+            }
+        
+        .default-theme #edit-bg-gear, .custom-links-enabled #edit-bg-gear {
+            background: url(http://ssl.gstatic.com/images/icons/material/system/svg/settings_24px.svg) no-repeat center;
+            background-size: 16px 16px;
+            cursor: pointer;
+            display: block;
+            height: 100%;
+            width: 100%;
+        }
+
+        :focus {
+            outline: -webkit-focus-ring-color auto 5px;
+        }
+
+    </style>
+</head>
+<body>
+    <div>
+        <div id="edit-bg" class="custom-links-enabled">
+            <div id="edit-bg-gear" tabindex="0" aria-label="Personalizar esta página" title="Personalizar esta página"></div>
+        </div>
+    </div>
+</body>
+</html>
