@@ -1,2 +1,8 @@
+const nums = [1, 2, 3, 4, 5]
 
-// Desafio 2: Algum aluno é bolsista?
+// For com proposito
+let resultado = nums.map(function(e) {
+    return e * 2
+})
+
+console.log(resultado)
